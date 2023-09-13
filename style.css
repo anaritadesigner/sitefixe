@@ -1,0 +1,218 @@
+
+body {
+    background-color: #053B50;
+    font-family: 'Barlow', sans-serif;
+}
+
+/*Título e subtítulo*/
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #EEEEEE;
+}
+
+#h2 {
+    text-align: center;
+    font-weight: lighter;
+    color: #EEEEEE;
+}
+
+/*Fim título e subtítulo*/
+
+/* Menu */
+
+.navbar-container {
+    text-align: center;
+    background-color: #176B87;
+    padding: 0px;
+    margin: auto;
+    width: fit-content;
+}
+
+.navbar ul {
+    list-style-type: none; 
+    background-color: #176B87;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: fit-content;
+}
+
+ul {
+    padding: 0px;
+}
+
+
+.navbar li {
+    display: inline-block;
+    margin: 0
+}
+
+.navbar a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+}
+
+a:hover {
+    background-color: #64CCC5;
+    color: #EEEEEE;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: #EEEEEE;
+}
+
+
+/* Fim menu */
+
+/* Livros - TEXTO*/
+
+h2 {
+    color: #EEEEEE;
+}
+
+h3 {
+    color: #EEEEEE;
+}
+
+p {
+    color: #EEEEEE;
+}
+
+.sobre {
+    display: block;
+    margin: 20px;
+}
+
+/*LIVRO 1*/
+
+#livro1 {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#livro11 {
+    height: 300px;
+    display: block;
+}
+
+/* FIM LIVRO 1*/
+
+/*LIVRO 2*/
+
+#livro2 {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#livro22 {
+    height: 300px;
+    display: block;
+}
+
+/*FIM LIVRO 2*/
+
+/*LIVRO 3*/
+
+#livro3 {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#livro33 {
+    height: 300px;
+    display: block;
+}
+
+/*FIM LIVRO 3*/
+
+/*VIDEOS*/
+
+
+#musicas {
+    flex-direction: row;
+    text-align: center;
+}
+
+#video1 {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px;
+    padding-top: 0%;
+    border: solid white;
+    background-color: #64CCC5;
+}
+
+#video2 {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px;
+    padding-top: 0%;
+    border: solid white;
+    background-color: #64CCC5;
+}
+
+#video3 {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px;
+    padding-top: 0%;
+    border: solid white;
+    background-color: #64CCC5;
+}
+
+#video4 {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px;
+    padding-top: 0%;
+    border: solid white;
+    background-color: #64CCC5;
+}
+
+/* FIM VIDEOS*/
+
+/*BUTTON*/
+
+#button {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #EEEEEE;
+    background-color: #64CCC5;
+    cursor: pointer;
+}
+
+#teste {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/*FIM BUTTON*/
+
+/*FOOTER*/
+
+footer {
+    color: #EEEEEE;
+    text-align: center;
+}
+
+/*FIM FOOTER*/
